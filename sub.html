@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2023</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/sub.css">
+   
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/menu.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div id="top">
+            <div id="log_event_wrap">
+                <div id="event">
+                    <a href="#">
+                        <p>Event. <span>간단 회원가입하고 2,000 포인트 적립 +2,000P</span></p>
+                    </a>
+                    <!--   <span><a href="">Event.</a></span>
+                <p><a href="">간단 회원가입하고 2,000 포인트 적립 +2,000P</a></p> -->
+                </div>
+                
+                <div id="login">
+                    <ul>
+                        <li><a href="#">로그인</a></li>
+                        <li><a href="#">회원가입</a></li>
+                        <li><a href="#">마이쇼핑</a></li>
+                        <li>
+                            <a href=""><img src="img/logo/icon-hd-my.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="img/logo/icon-hd-cart.png" alt=""></a>
+                        </li>
+
+                    </ul>
+                </div>
+                
+            </div>
+            <div id="logo">
+                <a href="index.html"><img src="img/logo/logo2.jpg" alt=""></a>
+            </div>
+        </div>
+
+        <nav>
+            <div id="menu_wrap">
+            <ul class="menu">
+                <li><a href="sub.html" target="_self">L.by TH</a>
+
+                    <ul class="submenu">
+                        <li><a href="#">주방데코</a></li>
+                        <li><a href="#">식기/그릇</a></li>
+                        <li><a href="#">조리/도구/용기</a></li>
+                        <li><a href="#">도시락/피크닉</a></li>
+                    </ul>
+
+                </li>
+                <li><a href="sub.html" target="_self">BEST</a>
+                    <ul class="submenu">
+                        <li><a href="#">홈데코</a></li>
+                        <li><a href="#">수납/정리</a></li>
+                        <li><a href="#">패브릭</a></li>
+                        <li><a href="#">슬리퍼</a></li>
+                    </ul>
+                </li>
+                <li><a href="sub.html" target="_self">KITCHEN</a>
+                    <ul class="submenu">
+                        <li><a href="#">주방데코</a></li>
+                        <li><a href="#">식기/그릇</a></li>
+                        <li><a href="#">조리/도구/용기</a></li>
+                        <li><a href="#">도시락/피크닉</a></li>
+                    </ul>
+                </li>
+                <li><a href="sub.html" target="_self">LIVING</a>
+                    <ul class="submenu">
+                        <li><a href="#">홈데코</a></li>
+                        <li><a href="#">수납/정리</a></li>
+                        <li><a href="#">패브릭</a></li>
+                        <li><a href="#">슬리퍼</a></li>
+                    </ul>
+                </li>
+                <li><a href="sub.html" target="_self">STATIONERY</a>
+                    <ul class="submenu">
+                        <li><a href="#">캘린더/다이어리</a></li>
+                        <li><a href="#">스크랩북/문구</a></li>
+                        <li><a href="#">디자인/패브릭</a></li>
+                        <li><a href="#">굿즈</a></li>
+                    </ul>
+                </li>
+                <li><a href="sub.html" target="_self">BATH</a>
+                    <ul class="submenu">
+                        <li><a href="#">아이방 데코</a></li>
+                        <li><a href="#">유아용 식기/그릇</a></li>
+                        <li><a href="#">토이/교육/놀이</a></li>
+                        <li><a href="#">굿즈</a></li>
+                    </ul>
+                </li>
+                <li><a href="sub.html" target="_self">CANDLE</a>
+                    <ul class="submenu">
+                        <li><a href="#">캔들</a></li>
+                        <li><a href="#">디퓨저</a></li>
+                        <li><a href="#">침구 룸스프레이/차량용</a></li>
+                        <li><a href="#">ACC</a></li>
+                    </ul>
+                </li>
+                <li><a href="sub.html" target="_self">TRAVEL</a>
+                    <ul class="submenu">
+                        <li><a href="#">캐리어/트래블 파우치</a></li>
+                        <li><a href="#">여권/여행 플래너</a></li>
+                        <li><a href="#">캠핑 여행용ACC</a></li>
+                    </ul>
+                </li>
+                <li><a href="sub.html" target="_self">BABY</a>
+                    <ul class="submenu">
+                        <li><a href="#">아이방 데코</a></li>
+                        <li><a href="#">유아용 식기/그릇</a></li>
+                        <li><a href="#">토이/교육/놀이</a></li>
+                        <li><a href="#">굿즈</a></li>
+                    </ul>
+                </li>
+                <li><a href="sub.html" target="_self">PETS</a>
+                    <ul class="submenu">
+                        <li><a href="#">반려견 용품</a></li>
+                        <li><a href="#">반려묘 용품</a></li>
+                        <li><a href="#">펫모차</a></li>
+                    </ul>
+                </li>
+                <li><a href="sub.html" target="_self">SALE</a>
+                    <ul class="submenu">
+                        <li><a href="#">주방데코</a></li>
+                        <li><a href="#">식기/그릇</a></li>
+                        <li><a href="#">조리/도구/용기</a></li>
+                        <li><a href="#">도시락/피크닉</a></li>
+                    </ul>
+                </li>
+                <li><a href="sub.html" target="_self">EVENT</a>
+                    <ul class="submenu">
+                        <li><a href="#">주방데코</a></li>
+                        <li><a href="#">식기/그릇</a></li>
+                        <li><a href="#">조리/도구/용기</a></li>
+                        <li><a href="#">도시락/피크닉</a></li>
+                    </ul>
+                </li>
+
+
+            </ul>
+
+        </div>
+        </nav>
+
+    </header>
+    
+    <!-- <div id="submenu">
+        
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">|</a></li>
+                <li><a href="#">KITCHEN</a></li>
+                <li><a href="#">></a></li>
+                <li><a href="#">주방데코</a></li>
+            </ul>
+        
+    </div> -->
+    <div class="home_ul_box">
+        <ul class="home_ul">
+            <li>HOME</li>
+            <li>|</li>
+            <li>KITCHEN</li>
+            <li>|</li>
+            <li>주방데코</li>
+            
+        </ul>
+    </div>
+
+
+    <div id="sub_main">
+        <div id="products_left_box">
+            <img src="img/sub/SubTable/sub1.jpg" alt="" id="cimg" class="W1">
+            <div id="jquery">
+            <ul>
+                <li>
+                    <img src="img/sub/SubTable/sub1.jpg" alt=""  class="W2">
+                </li>
+
+                <li>
+                    <img src="img/sub/SubTable/sub2.jpg" alt="" class="W3">
+                </li>
+
+                <li>
+                    <img src="img/sub/SubTable/sub3.jpg" alt=""  class="W4">
+                </li>
+
+                <li>
+                    <img src="img/sub/SubTable/sub4.jpg" alt="" class="W5">
+                </li>
+
+            </ul>
+        </div>
+        </div>
+
+        <div id="products_right_box">
+            <h3>양면 식탁매트 투톤 베이직PU 4type</h3>
+            <div id="table_top">
+                
+                <span id="kitchen">KITCHEN</span>
+                <span id="deco">주방 데코</span>
+                <p>9,800원</p>
+            </div>
+
+            <table class="table1">
+            
+
+                <tr>
+                    <td>상품코드</td>
+                    <td>P0000BEJ</td>
+                </tr>
+
+                <tr>
+                    <td>소비자가</td>
+                    <td>9,800원</td>
+                </tr>
+
+                <tr>
+                    <td>판매가</td>
+                    <td>8,900원</td>
+                </tr>
+
+                <td colspan="2">
+                    <table class="table2">
+                        <tbody>
+                            <tr>
+                                <td>타입/컬러</td>
+                                <td><select>
+
+                                    <option>[필수] 옵션을 선택해 주세요</option>
+                                    <option>-------------------------------------------</option>
+                                    <option>사각형 (인디핑크/ 그레이)</option>
+                                    <option>사각형 (화이트/ 베이지)</option>
+                                    <option>조약돌형 (인디핑크/ 그레이)</option>
+                                    <option>조약돌형 (화이트/ 베이지)</option>
+                                    <option>육각형 (인디핑크/ 그레이)</option>
+                                    <option>육각형 (화이트/ 베이지)</option>
+                                    <option>타원형 (인디핑크/ 그레이)</option>
+                                    <option>타원형 (화이트/ 베이지)</option>
+
+                                </select></td>
+                                </tr>
+                        </tbody>
+                    </table>
+                </td>
+
+            </table>
+            
+            
+                <p>총 금액 <span>8,900원</span></p>
+                
+                <button class="button1">구매하기</button>
+
+                <button class="button1">장바구니</button>
+          
+                <button class="button1">위시 리스트</button>
+
+        </div>
+    </div>
+
+    <section>
+        <div id="add_item">
+            <h3>ADD ITEM</h3>
+            <div class="box1">
+                <a href="#"><img src="img/sub/SubAdd/add1.jpg" alt=""></a>
+                <p><a href="#"></a></p>
+                <span></span>
+            </div>
+            
+
+            <div class="box1">
+                <a href="#"><img src="img/sub/SubAdd/add2.jpg" alt=""></a>
+                <p><a href="#"></a></p>
+                <span></span>
+
+            </div>
+
+            <div class="box1">
+                <a href="#"><img src="img/sub/SubAdd/add3.jpg" alt=""></a>
+                <p><a href="#"></a></p>
+                <span></span>
+
+            </div>
+
+            <div class="box1">
+                <a href="#"><img src="img/sub/SubAdd/add4.jpg" alt=""></a>
+                <p><a href="#"></a></p>
+                <span></span>
+
+            </div>
+
+            <div class="box1">
+                <a href="#"><img src="img/sub/SubAdd/add5.jpg" alt=""></a>
+                <p><a href="#"></a></p>
+                <span></span>
+
+            </div>
+
+        </div>
+
+        <div id="sub_image1">
+            <ul>
+                <li><a href="#">DRTAIL</a></li>
+                <li><a href="#">WITH ITEM</a></li>
+                <li><a href="#">GUIDE</a></li>
+                <li><a href="#">REVIEW(11)</a></li>
+                <li><a href="#">Q&A(8)</a></li>
+                
+            </ul>
+            
+            <h4>따사로운 햇살이<br>
+                비추는 식탁,<br>
+                일상에 감성을 더하다
+            </h4>
+
+            <div class="img1">
+                <img src="img/sub/SubMain/submain1.jpg" alt="">
+                <span>감각적인 디자인과 다양한 컬러로<br>
+                    산뜻한 테이블을 연출해보세요.
+                </span>
+            </div>
+
+            <div class="img1">
+                <img src="img/sub/SubMain/submain2.jpg" alt="">
+                <h5>심플한, 투톤 디자인<br>
+                TABLE MAT</h5>
+                <p>소중한 한끼의 식사<br>
+                    집밥을 먹더라도 그냥 먹을 순 없으니깐, </p>
+            </div>
+
+            <div class="img1">
+                <img src="img/sub/SubMain/submain3.jpg" alt="">
+                <h5>01 <br>
+                Premium PU Leather
+                </h5>
+                <p>고급 PU를 사용하여 부드러운 터치감을 제공하며,<br>
+                    PVC와는 확연한 차이를 느낄 수 있습니다.</p>
+            </div>
+
+            <div class="img1">
+                <img src="img/sub/SubMain/submain4.jpg" alt="">
+                <h5>02<br>
+                양면으로 활용 가능한<br>
+                투톤 컬러</h5>
+                <p>취향에 따라, 테이블 컬러에 따라<br>
+                    다양한 선택을해보세요.</p>
+            </div>
+
+            <div class="img1">
+                <img src="img/sub/SubMain/submain5.jpg" alt="">
+                <span>공간에 가치를 더하다.</span>
+            </div>
+
+            
+            
+
+        </div>
+
+        <div id="sub_image2">
+            <ul>
+                <li><a href="#">DRTAIL</a></li>
+                <li><a href="#">WITH ITEM</a></li>
+                <li><a href="#">GUIDE</a></li>
+                <li><a href="#">REVIEW(11)</a></li>
+                <li><a href="#">Q&A(8)</a></li>
+                
+            </ul>
+            
+            <div class="img2">
+                <img src="img/sub/SubWhite/SUBWHITE1.jpg" alt="">
+                <p><a href="#">얀센코 도자기 마이머그 페스티벌<br>
+                    옐로우 225mla></a></p>
+                <span>22,900원</span>
+            </div>
+
+            <div class="img2">
+                <img src="img/sub/SubWhite/SUBWHITE2.jpg" alt="">
+                <p><a href="#">차바트리 계량스푼 우드 4개 세트</a></p>
+                <span>38,900원</span>
+            </div>
+
+            <div class="img2">
+                <img src="img/sub/SubWhite/SUBWHITE3.jpg" alt="">
+                <p><a href="#">매트 실버 커트러리 디너 포크 ver2</a></p>
+                <span>4,600원</span>
+            </div>
+
+            <div class="img2">
+                <img src="img/sub/SubWhite/SUBWHITE4.jpg" alt="">
+                <p><a href="#">주방 철제 자석 벽선반 다용도 4color</a></p>
+                <span>22,900원</span>
+            </div>
+
+
+            <div class="img2">
+                <img src="img/sub/SubWhite/SUBWHITE5.jpg" alt="">
+                <p><a href="#">차바트리 밀크 소스컵</a></p>
+                <span>19,900원</span>
+            </div>
+
+            <div class="img2">
+                <img src="img/sub/SubWhite/SUBWHITE6.jpg" alt="">
+                <p><a href="#">얀센코 도자기 마이볼<br>
+                    옐로우 그레이 455ml</a></p>
+                <span>39,700원</span>
+            </div>
+
+            <div class="img2">
+                <img src="img/sub/SubWhite/SUBWHITE7.jpg" alt="">
+                <p><a href="#">라탄 조명 전등갓 뱀부 대나무 식탁등</a></p>
+                <span>13,700원</span>
+            </div>
+
+            <div class="img2">
+                <img src="img/sub/SubWhite/SUBWHITE8.jpg" alt="">
+                <p><a href="#">우드 2개 세트</a></p>
+                <span>17,300원</span>
+            </div>
+            
+        </div>
+
+        <div id="information">
+            <ul>
+                <li><a href="#">DRTAIL</a></li>
+                <li><a href="#">WITH ITEM</a></li>
+                <li><a href="#">GUIDE</a></li>
+                <li><a href="#">REVIEW(11)</a></li>
+                <li><a href="#">Q&A(8)</a></li>
+                
+            </ul>
+            
+            <div class="text_box">
+                <h3>상품결제정보</h3><br>
+                <p>결제 수단: 카드/네이버 페이/실시간 계좌이체/무통장 입금<br>
+                카드 결제: 5만원 이상 결제 시 무이자 할부혜택<br>
+                무료 배송: 5만원 이상 결제 시 무료배송됩니다.<br>
+                현금 결제: 현금 영수증을 발급받을실 수 있습니다.<br><br>
+                -회원 가입 시 할인쿠폰 2,000+적립금 1%<br>
+                시즌마다 다양한 이벤트 쿠폰 혜택을 드립니다.<br><br>
+                
+
+                -대량 구매 시 보유 재고가 발송되어 대부분 당일 출고되지만<br>
+                급한 주문 건의 경우 보다 정확한 재고 팡악을 위해 상품문의 게시판<br>
+                또는 고객센터로 연락 주시기 바랍니다.<br><br>
+
+                상담 전화량이 많아 고객센터 연결이 원활하지 않을 시에는<br>
+                네이버 톡톡을 이용해 주시면, 빠른 응대가 가능합니다.<br><br>
+
+
+                무통장 입금 주문시 입력한 입금자명과 실제입금자의 성명이 일치하여야 하며,<br>
+                7일 이내로 입금되지 않은 주문은 자동취소 됩니다.
+                
+                </p><br><br><br>
+
+                
+                <h3>배송정보</h3>
+                <br>
+
+                <p>
+                    무료배송: 5만원 이상 결제 시 무료배송됩니다.<br>
+                    당일 출고: 오후 1시까지 주문 완효시 보통 당일출고 됩니다.<br><br>
+
+                    -키친/데코/브랜드/해외바잉/등 개별 물류센터에서 출고되어,<br>
+                    상품이 개별배송으로 도착할 수 있습니다.<br<br>
+
+                    -주문폭주 및 주문제작 제품은 출고가 지연될 수 있습니다.<br><br>
+                    
+                    -모든 제품은 결제완료 기준으로 순차적으로 출고되며<br>
+                    주문량에 따라 제품이 품절될 수 있음을 양해 부탁드리며,<br>
+                    
+                    이 경우 고객센터에서 문자 메세지 또는 연락을 드리겠습니다.<br><br>
+                    
+                    배송시간은 각 지역별 택배사의 외부환경에 따라 변돌될 수 있으며,<br>
+                    도서지역 및 제주도는 별도 4,000원 추가비용이 있습니다.
+                    
+
+
+                </p>
+            </div>
+            
+
+        </div>
+
+        <div id="review">
+            <ul>
+                <li><a href="#">DRTAIL</a></li>
+                <li><a href="#">WITH ITEM</a></li>
+                <li><a href="#">GUIDE</a></li>
+                <li><a href="#">REVIEW(11)</a></li>
+                <li><a href="#">Q&A(8)</a></li>
+                
+            </ul>
+            <h4>REVIEW</h4>
+            
+
+            <table class="table3">
+
+                <tr>
+                    <td>번호</td>
+                    <td></td>
+                    <td>작성자</td>
+                    <td>평점</td>
+                </tr>
+
+                <tr>
+                    <td>11</td>
+                    <td>좋아요</td>
+                    <td>임선****</td>
+                    <td><div><img src="" alt=""></div></td>
+                </tr>
+
+                <tr>
+                    <td>10</td>
+                    <td>만족</td>
+                    <td>네이****</td>
+                    <td><div><img src="" alt=""></div></td>
+                </tr>
+
+                <tr>
+                    <td>9</td>
+                    <td>만족</td>
+                    <td>임선****</td>
+                    <td><div><img src="" alt=""></div></td>
+                </tr>
+
+                <tr>
+                    <td>8</td>
+                    <td>좋아요!</td>
+                    <td>임선****</td>
+                    <td><div><img src="" alt=""></div></td>
+                </tr>
+
+                <tr>
+                    <td>7</td>
+                    <td>이쁘네요~!</td>
+                    <td>임선****</td>
+                    <td><div><img src="" alt=""></div></td>
+                </tr>
+
+                <tr>
+                    <td>6</td>
+                    <td>추천</td>
+                    <td>네이****</td>
+                    <td><div><img src="" alt=""></div></td>
+                </tr>
+
+                <tr>
+                    <td>5</td>
+                    <td>식탁매트 예뻐요</td>
+                    <td>박우****</td>
+                    <td><div><img src="" alt=""></div></td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>넘 맘에 들어요</td>
+                    <td>김영****</td>
+                    <td><div><img src="" alt=""></div></td>
+                </tr>
+
+
+            </table>
+
+            <button class="button_1">WRITE</button>
+            <button class="button_1">WRITE</button>
+
+            <div id="button_2">
+                <button>《</button>
+                <button>〈</button>
+                <button>1</button>
+                <button>2</button>
+                <button>〉</button>
+                <button>》</button>
+            </div>
+
+               
+
+        </div>
+
+    </section>
+    
+
+
+
+    <footer>
+        <div id="contact1">
+            <div>
+                <div class="about">
+                    <h3>ABOUT US</h3>
+                    <ul>
+                        <li>GUIDE</li>
+                        <li>PRIVACY POLICY</li>
+                        <li>AREEMENT</li>
+                    </ul>
+                </div>
+
+                <div class="phone">
+                    <h3>070-5123-3690</h3>
+                    <ul>
+                        <li>OPEN AM 10:00- PM 05:00</li>
+                        <li>BREAK PM 12:00- PM 01:00</li>
+                        <li>OFF SAT/SUN/HOLIDAY</li>
+                    </ul>
+                </div>
+
+                <div class="bank">
+                    <h3>BANK INFO</h3>
+                    <ul>
+                        <li>우리 1002-349-368874</li>
+                        <li>기업 140-109487-04-018</li>
+                        <li>예금주 김은혜(어본)</li>
+                    </ul>
+                </div>
+
+                <div class="email">
+                    <h3>CONTACT</h3>
+                    <ul>
+                        <li>제휴신청/ 입점제안</li>
+                        <li>Thierhome.aubon@gmail.com</li>
+                        <li>INSTAGRAM@lby.thierhome</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="contact2">
+            <div>
+                <p>LEREVE BY THIR HOME CAMPANY.AUBON OWNER.KIM HYUN JUN<br>
+                
+        BUSINESS LICENSE.887 05 00417 LICENSE 2016 SEOUL YEONGDEUNGPO 0487 CAONFIRMATION CPO.KIM HYUN JUN<br>
+        
+        DAESUN D POLIS BULIDING A, 30TH FLOOR,606,SEOBUSAET-GIL,GEUMCHEON-GU.SEOUL,REPUBLIC OF KOREA<br>
+    
+        CUSTOMER CENTER 070-5123-360 E.MAIL.thierhome.aubon@gmail.com <br><br><br>
+        
+
+        모든이미지는 법적인 보호를 받고 있습니다. 무단게재 및 도용시 저작권법에 의해 형사고발 및 손해배상을 묻습니다.<br></p>
+        
+      COPYRIGHT (c) AUBON. ALL rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+
+
+
+
+
+
+
+
+
+        $(document).ready(function(){
+  
+  
+  
+          $("#jquery li:first-child").mouseover(function(){
+  
+            $("#cimg").attr("src","img/sub/SubTable/sub1.jpg");
+  
+          });
+  
+  
+  
+          $("#jquery li:nth-child(2)").mouseover(function(){
+  
+            $("#cimg").attr("src","img/sub/SubTable/sub2.jpg");
+  
+          });
+  
+  
+  
+  
+  
+  
+  
+          $("#jquery li:nth-child(3)").mouseover(function(){
+  
+            $("#cimg").attr("src","img/sub/SubTable/sub3.jpg");
+  
+          });
+  
+  
+          $("#jquery li:nth-child(4)").mouseover(function(){
+  
+  $("#cimg").attr("src","img/sub/SubTable/sub4.jpg");
+
+});
+        });
+  
+  
+  
+      </script>
+
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+        #sliderwrap {width:100%; height: 800px; margin:0 auto;  overflow: hidden;position: relative; }
+        .slide {width: 7600px;  height: 800px;}
+        .slide li {width: 1900px; height: 800px; float: left; }
+        .slide li img {width: 100%; height: 100%;}
+        section {width:1100px; height: 5300px; margin:0 auto;}
+        #sliderwrap > span {background-color: #000; color: aliceblue; font-size: 50px; position: absolute; top: 50%;
+        opacity: 0.5; padding: 20px; transform: translateY(-50%); cursor: pointer;}
+        .prev {position: absolute; left: 0;}
+        .next {position: absolute; right: 0;}
+
+        #Bestproduct > h3 {width:100%; height: 150px; text-align:center; padding-top: 80px; letter-spacing: 3px; font-size: 25px; margin-top: 30px;}
+        #Bestproduct {width: 1100px; height: 1000px; position:relative; display: flex; flex-wrap: wrap; justify-content: space-evenly; }
+        #Bestproduct > a >.main_img1 {width:355px; height: 355px; position: relative;}
+        #Bestproduct > a > .main_img1:nth-of-type(3n):nth-of-type(3n) {float:right; margin: 0 0 50px 0;}
+        #Bestproduct > a > .main_img1 > .text_hover {position: absolute; top: 0; left: 0; background-color: #000; width: 100%; height: 100%; opacity: 0;}
+        #Bestproduct > a > .main_img1:hover .text_hover {opacity: 0.6;}
+        #Bestproduct > a > .main_img1 > .text_hover h4 {color:white; width: 260px; font-size: 13px; height: 65; margin: 70px 0 10px 50px; border-bottom:1px solid white;}
+        #Bestproduct > a >.main_img1 > .text_hover p {color:white; width: 260px; height: 60px; margin: 50px 0 10px 50px; font-size: 12px; text-align: center;}
+        #Bestproduct > a >.main_img1 > .text_hover span {color:white; font-size:12px; margin:0 0 0 150px;}
+        
+        
+
+        #Spring_Review {width: 1099px; height: 300px; display: flex;} 
+        #Spring_Review > .main_img2 {width: 355.98px; height: 250px;  margin:10px 15px 10px 0;}
+        #Spring_Review > .main_img2:last-of-type{float:right; margin: 10px 0 10px 0;}
+        #Spring_Review > .main_img2 > a > img {width:355px;}
+
+        #New_arrivals {width: 1099px; height: 600px; }
+        #New_arrivals > .main_img3 {width:262.99px; height: 262.97px;  float:left;  margin:0 15px 100px 0;} 
+        #New_arrivals > .main_img3:nth-of-type(4n) {margin:0 0 200px 0; float:right;}
+        #New_arrivals > h3 { height: 170px; text-align:center; padding-top: 90px; letter-spacing: 3px; font-size: 25px;}
+        #New_arrivals > .main_img3 > a >img {width:100%; height: 100%;}
+        #New_arrivals > .main_img3 > h4 > a {font-size:12px; text-decoration:none; color:#000; }
+        #New_arrivals > .main_img3 > p > a {font-size:12px; color:#808080; display: block; margin:8px 0;}
+        #New_arrivals > .main_img3 > span { font-size:12px; color:#000;}
+        #New_arrivals > .main_img3 > .down {text-decoration:line-through; color:#808080;}
+
+        #MDs_choice {width: 1100px; height: 1800px; margin:0 auto; overflow: hidden;}
+        #MDs_choice > h3 {  height: 150px; text-align:center; padding-top: 60px; letter-spacing: 3px; font-size: 25px;}
+        #MDs_choice > article > .main_img4 {width: 253px; height: 263px;  float:left; margin:10px 0 120px 18px;}
+        #MDs_choice > article > .main_img4 > a > img {width: 100%; height: 100%;}
+        #MDs_choice > article > .main_img4 > h4 > a {font-size:12px; color: #000;}
+        #MDs_choice > article > .main_img4 > p {font-size:12px; color:#808080;text-decoration:line-through}
+        #MDs_choice > article > .main_img4 > span {font-size:12px; color:#000;}
+
+        #Today_best {width:1100px; height: 800px; }
+        #Today_best > h3 { height: 165px; text-align:center; padding-top: 70px; letter-spacing: 4px; font-size: 25px;}
+        #Today_best > .main_img5 {width: 263px; height: 263px; float:left; margin:6px;} 
+        #Today_best > .main_img5 > a > img {width:100%; height: 100%;}
+
+        #Event_press > h5 { height: 50px; margin:20px 0; font-size: 20px; letter-spacing: 4px;}
+        #Event_press > .contents_img {width: 345px; height: 250px; float:left; margin:10px;}
+        #Event_press > .contents_img > a > img {width: 100%; height: 100%;}
+        #Event_press > .contents_img > h6 {font-size:17px; margin:5px 0 0 0;}
+        #Event_press > .contents_img > p > a {font-size:12px; display:block; width: 300px; margin:10px 0 0 0px; color:#808080}

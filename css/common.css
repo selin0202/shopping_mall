@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+        header {width: 100%;height: 100%;margin: 0 auto;}
+
+        #top {width: 1300px;height:auto;margin: 0 auto; padding: 0 0 60px 0;}
+        #log_event_wrap {display: flex; justify-content: space-between; height: 80px;}
+        #login {width: 290px;height:30px; margin: 15px; }
+        #login {width: 290px;height:30px; margin: 15px; }
+        #login > ul {height:100%; display: flex; justify-content: space-evenly; justify-items: center;}
+        #login ul li {line-height: 30px; height: 100%;}
+        #login > ul > li > a { text-decoration: none;color: #000;font-size: 11px;  height: 100%;}
+        #login > ul > li > a > img {width: 30px; height: 100%;}
+        #login > ul > li > a:hover {color:#006400;}
+
+        #logo {width:330px; height: 150px; margin: 0 auto; }
+        #logo a {width: 100%; height: 100%;}
+        #logo a img {width: 100%; height: 100%;}
+
+        nav {width: 100%; border: 1px solid #eee;}
+        .menu {background-color: red; width: 1560px; margin: 0 auto; }
+        .menu > li { float: left; width: 130px; line-height: 60px; 
+        text-align: center;}
+        .menu > li > a:hover {color:gray}
+        .menu a{color: #000; cursor: pointer; display: block;}
+
+        .submenu {width: 130px; position: absolute; z-index: 1; background-color: white; opacity: 0.8; display: none;}
+        .submenu > li:hover {background-color: #eee;}
+        
+                
+        
+        
+        
+        
+
+        #event { margin:20px 0 0 20px; width:300px; height:100px; }
+        #top > #event > a:hover {color:#eee;}
+
+/*        #event>span>a {font-size: 12px;float: left;text-decoration: none;color:#000;background-color: red;margin: 5px 5px;}*/
+
+/*        #event>p>a {font-size: 5px;background-color: pink;}*/
+        
+        /* 수정코드 시작 */
+
+        #event > a {display:block; margin-left:5px; font-size:12px; color:#000;}
+        #event > p > a:hover {color:#eee}
+
+
+footer {width: 100%; height:100%;  margin:0 auto; border:2px solid  #808080;}
+
+        #contact1 > div {width: 1100px; height: 250px; margin:0 auto; }
+        
+        #contact1 > div >.about {width: 260px; height: 250px; float:left;}
+        #contact1 > div >.about > h3 {margin:30px 0 10px 10px; font-size:12px;}
+        #contact1 > div >.about > ul > li {margin: 0 0 10px 10px; font-size: 12px;}
+
+
+        #contact1 > div >.phone {width: 260px; height: 250px;  float:left;}
+        #contact1 > div >.phone > h3 {margin:30px 0 10px; font-size:12px;}
+        #contact1 > div >.phone > ul > li {margin: 0 0 10px 0; font-size: 13px;}
+
+        #contact1 > div >.phone {width: 260px; height: 250px;  float:left;}
+        #contact1 > div >.phone > h3 {margin:30px 0 10px; font-size:12px;}
+        #contact1 > div >.phone > ul > li {margin: 0 0 10px 0; font-size: 13px;}
+
+        #contact1 > div >.bank {width: 260px; height: 250px;  float:left;}
+        #contact1 > div >.bank > h3 {margin:30px 0 10px; font-size:12px;}
+        #contact1 > div >.bank > ul > li {margin: 0 0 10px 0; font-size: 13px;}
+
+        #contact1 > div >.email {width: 260px; height: 250px;  float:left;}
+        #contact1 > div >.email > h3 {margin:30px 0 10px; font-size:12px;}
+        #contact1 > div >.email > ul > li {margin: 0 0 10px 0; font-size: 13px;}
+
+        #contact2 > div { width: 1100px; height:250px; margin: 0 auto; }
+        #contact2 > div p {font-size: 12px; color: #808080;}
+        
